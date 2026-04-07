@@ -1,11 +1,9 @@
 services:
-  homepage:
+  clipflow:
     build:
       context: .
       dockerfile: Dockerfile
       args:
         NEXT_PUBLIC_APP_URL: ${NEXT_PUBLIC_APP_URL}
-    container_name: tiktok-homepage
-    ports:
-      - "3001:3001"
+    container_name: clipflow
     restart: unless-stopped
