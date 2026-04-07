@@ -1,9 +1,11 @@
 services:
   clipflow:
     build:
-      context: .
+      context: ../clip-flow
       dockerfile: Dockerfile
       args:
         NEXT_PUBLIC_APP_URL: ${NEXT_PUBLIC_APP_URL}
     container_name: clipflow
     restart: unless-stopped
+    networks:
+      - proxy_network
