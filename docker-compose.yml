@@ -1,7 +1,7 @@
 services:
   clipflow:
     build:
-      context: ../clip-flow
+      context: .
       dockerfile: Dockerfile
       args:
         NEXT_PUBLIC_APP_URL: ${NEXT_PUBLIC_APP_URL}
