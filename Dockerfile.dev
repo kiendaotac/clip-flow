@@ -1,0 +1,9 @@
+FROM node:20-bookworm-slim
+WORKDIR /app
+RUN corepack enable
+COPY package.json pnpm-lock.yaml* ./
+RUN pnpm install --frozen-lockfile --include=optional
+EXPOSE 3001
+ENV PORT=3001
+ENV HOSTNAME=0.0.0.0
+CMD ["sh", "-lc", "pnpm install --frozen-lockfile --include=optional && pnpm dev --webpack --port 3001"]

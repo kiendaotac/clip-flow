@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "faq": "FAQ",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "openApp": "Open App"
+  },
+  "hero": {
+    "badge": "For Content Creators",
+    "headline1": "Edit, Schedule & Upload",
+    "headline2": "Your Videos to",
+    "headlineBrand": "TikTok",
+    "sub1": "Process your videos with FFmpeg · Split into segments",
+    "sub2": "Upload to connected TikTok accounts · Schedule within TikTok policy limits",
+    "tagline": "Self-hosted · Open source · Full control",
+    "ctaPrimary": "Open App",
+    "ctaSecondary": "Privacy Policy",
+    "stat1Num": "9:16",
+    "stat1Label": "Portrait output",
+    "stat2Num": "10min",
+    "stat2Label": "Max per segment",
+    "stat3Num": "Multi",
+    "stat3Label": "Account support"
+  },
+  "features": {
+    "sectionLabel": "What it does",
+    "heading": "Everything you need to",
+    "headingBrand": "publish on TikTok",
+    "card1Title": "Video Processing",
+    "card1Body": "Upload your video, make quick trims, split into TikTok-friendly segments, and export 9:16 when needed. The workflow stays simple and automated.",
+    "card2Title": "Scheduling & Automation",
+    "card2Body": "Set publish times and intervals for your prepared segments. ClipFlow follows your authorized TikTok permissions and available posting limits while applying caption templates like 'Part 1, 2, 3...' and bulk hashtags.",
+    "card3Title": "Multi-Account TikTok Upload",
+    "card3Body": "Connect multiple TikTok accounts via OAuth. Upload the same segment to several accounts simultaneously. Add custom captions, hashtags per segment, and schedule for future posting — all from one dashboard with per-account status tracking."
+  },
+  "howItWorks": {
+    "sectionLabel": "Simple workflow",
+    "heading": "Three steps to go",
+    "headingBrand": "live on TikTok",
+    "step1Num": "01",
+    "step1Title": "Upload Your Video",
+    "step1Body": "Upload your video file to ClipFlow. The file is stored server-side and queued for processing — no client bandwidth used during processing.",
+    "step2Num": "02",
+    "step2Title": "Edit & Process",
+    "step2Body": "Trim your clip. Split into segments. Merge with a landscape video and convert to 9:16 portrait with your preferred background.",
+    "step3Num": "03",
+    "step3Title": "Publish",
+    "step3Body": "Connect TikTok via OAuth. Set caption, hashtags, schedule a time or publish immediately. Done."
+  },
+  "capabilities": {
+    "sectionLabel": "Full feature set",
+    "heading": "Built for serious",
+    "headingBrand": "content operations",
+    "cap1Title": "Auto-Schedule",
+    "cap1Desc": "Set a start time and interval for queued segments. Actual posting behavior depends on your approved TikTok scopes and current platform limits.",
+    "cap2Title": "Caption Templates",
+    "cap2Desc": "Apply a title template like 'Part 1, 2, 3...' to all segments at once. Add hashtags in bulk and edit per segment.",
+    "cap3Title": "Multi-Account",
+    "cap3Desc": "Upload one segment to multiple TikTok accounts simultaneously. Per-account status is tracked independently.",
+    "cap4Title": "Portrait Modes",
+    "cap4Desc": "Three backgrounds: Blur Zoom, Clean Zoom, or Solid Color behind landscape video for perfect 9:16 output.",
+    "cap5Title": "Series Management",
+    "cap5Desc": "Organise jobs into series with episode numbers. Track total uploads, published count, and failed segments per series.",
+    "cap6Title": "Encrypted Storage",
+    "cap6Desc": "TikTok OAuth tokens are encrypted at rest with AES-256-GCM. Tokens are never logged or exposed in API responses."
+  },
+  "techStack": {
+    "label": "Built on reliable, open-source infrastructure"
+  },
+  "faq": {
+    "sectionLabel": "Common questions",
+    "heading": "Frequently asked",
+    "headingBrand": "questions",
+    "q1": "Is this free to use?",
+    "a1": "Yes — ClipFlow is a self-hosted, open-source tool. You run it on your own server. You only need a TikTok Developer account (free) and a server to host it on. There are no subscription fees or usage limits.",
+    "q2": "Do I need a TikTok Developer account?",
+    "a2": "Yes. You must register a developer app at developers.tiktok.com, configure redirect URI, and pass TikTok app review for production scopes. In unaudited mode, posting is restricted by TikTok (for example private-view and usage caps).",
+    "q3": "Will my TikTok account get banned?",
+    "a3": "ClipFlow integrates with official TikTok APIs, but account safety still depends on how you use it. You are fully responsible for uploaded content and must follow TikTok Community Guidelines, platform policies, and local law.",
+    "q4": "Can I upload to multiple accounts?",
+    "a4": "You can connect multiple TikTok accounts via OAuth and choose which connected accounts receive each upload. The effective number of active creators/posts is still subject to TikTok review status, quotas, and policy limits.",
+    "q5": "What video formats are supported?",
+    "a5": "ClipFlow outputs H.264 video in MP4 container with AAC audio, which is the format required by the TikTok API. Source videos can be any format that FFmpeg supports — practically everything."
+  },
+  "cta": {
+    "heading": "Ready to grow on TikTok?",
+    "sub": "Start uploading in minutes. Self-hosted, full control, zero fees.",
+    "button": "Open App"
+  },
+  "footer": {
+    "tagline": "Self-hosted TikTok scheduling and upload tool. Built for creators, by a creator.",
+    "productHeading": "Product",
+    "legalHeading": "Legal",
+    "techHeading": "Built with",
+    "privacyLink": "Privacy Policy",
+    "termsLink": "Terms of Service",
+    "openApp": "Open App",
+    "copyright": "Kien Dao · ClipFlow. All rights reserved.",
+    "disclaimer": "Not affiliated with TikTok / ByteDance"
+  }
+}
