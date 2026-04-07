@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "features": "Tính năng",
+    "howItWorks": "Cách hoạt động",
+    "faq": "FAQ",
+    "privacy": "Chính sách",
+    "terms": "Điều khoản",
+    "openApp": "Mở ứng dụng"
+  },
+  "hero": {
+    "badge": "Dành cho Content Creator",
+    "headline1": "Chỉnh sửa, Lên lịch & Đăng tải",
+    "headline2": "Video của bạn lên",
+    "headlineBrand": "TikTok",
+    "sub1": "Xử lý video với FFmpeg · Cắt thành từng đoạn",
+    "sub2": "Upload lên các tài khoản TikTok đã kết nối · Lên lịch trong giới hạn chính sách TikTok",
+    "tagline": "Tự host · Mã nguồn mở · Toàn quyền kiểm soát",
+    "ctaPrimary": "Mở ứng dụng",
+    "ctaSecondary": "Chính sách bảo mật",
+    "stat1Num": "9:16",
+    "stat1Label": "Xuất video dọc",
+    "stat2Num": "10 phút",
+    "stat2Label": "Tối đa mỗi đoạn",
+    "stat3Num": "Đa tài khoản",
+    "stat3Label": "TikTok"
+  },
+  "features": {
+    "sectionLabel": "Chức năng",
+    "heading": "Tất cả công cụ để",
+    "headingBrand": "đăng tải lên TikTok",
+    "card1Title": "Xử lý Video",
+    "card1Body": "Upload video, cắt chỉnh nhanh, chia đoạn phù hợp TikTok và xuất 9:16 khi cần. Mọi thứ được xử lý tự động trong một luồng đơn giản.",
+    "card2Title": "Lên lịch & Tự động hoá",
+    "card2Body": "Đặt thời gian đăng và khoảng cách cho các đoạn đã chuẩn bị. ClipFlow tuân theo quyền TikTok bạn đã cấp và giới hạn đăng tải hiện hành, đồng thời hỗ trợ template caption như 'Phần 1, 2, 3...' và thêm hashtag hàng loạt.",
+    "card3Title": "Upload Đa Tài Khoản TikTok",
+    "card3Body": "Kết nối nhiều tài khoản TikTok qua OAuth. Upload cùng một đoạn lên nhiều tài khoản cùng lúc. Thêm caption, hashtag riêng cho từng đoạn và lên lịch đăng — tất cả từ một dashboard với trạng thái theo từng tài khoản."
+  },
+  "howItWorks": {
+    "sectionLabel": "Quy trình đơn giản",
+    "heading": "Ba bước để",
+    "headingBrand": "lên TikTok",
+    "step1Num": "01",
+    "step1Title": "Upload Video",
+    "step1Body": "Upload file video của bạn lên ClipFlow. File được lưu trữ phía server và đưa vào hàng đợi xử lý — không tốn băng thông client trong quá trình xử lý.",
+    "step2Num": "02",
+    "step2Title": "Chỉnh sửa & Xử lý",
+    "step2Body": "Cắt clip, chia thành đoạn. Ghép với video ngang và chuyển sang 9:16 dọc với nền theo ý muốn.",
+    "step3Num": "03",
+    "step3Title": "Đăng tải",
+    "step3Body": "Kết nối TikTok qua OAuth. Đặt caption, hashtag, lên lịch hoặc đăng ngay. Xong."
+  },
+  "capabilities": {
+    "sectionLabel": "Bộ tính năng đầy đủ",
+    "heading": "Được xây dựng cho",
+    "headingBrand": "creator nghiêm túc",
+    "cap1Title": "Tự động lên lịch",
+    "cap1Desc": "Đặt thời gian bắt đầu và khoảng cách cho hàng đợi. Hành vi đăng thực tế phụ thuộc vào scope TikTok được duyệt và các giới hạn nền tảng tại thời điểm đăng.",
+    "cap2Title": "Template Caption",
+    "cap2Desc": "Áp dụng template tiêu đề như 'Phần 1, 2, 3...' cho tất cả đoạn cùng lúc. Thêm hashtag hàng loạt và chỉnh sửa từng đoạn.",
+    "cap3Title": "Đa tài khoản",
+    "cap3Desc": "Upload một đoạn lên nhiều tài khoản TikTok cùng lúc. Trạng thái được theo dõi độc lập theo từng tài khoản.",
+    "cap4Title": "Chế độ Portrait",
+    "cap4Desc": "Ba nền: Blur Zoom, Clean Zoom hoặc Solid Color phía sau video ngang để xuất ra 9:16 hoàn hảo.",
+    "cap5Title": "Quản lý Series",
+    "cap5Desc": "Tổ chức jobs theo series với số tập. Theo dõi tổng số upload, số tập đã đăng và số tập lỗi theo từng series.",
+    "cap6Title": "Lưu trữ mã hóa",
+    "cap6Desc": "Token OAuth TikTok được mã hóa AES-256-GCM khi lưu trữ. Token không bao giờ được log hoặc hiển thị trong API response."
+  },
+  "techStack": {
+    "label": "Xây dựng trên hạ tầng mã nguồn mở đáng tin cậy"
+  },
+  "faq": {
+    "sectionLabel": "Câu hỏi thường gặp",
+    "heading": "Các câu hỏi",
+    "headingBrand": "thường gặp",
+    "q1": "Công cụ này có miễn phí không?",
+    "a1": "Có — ClipFlow là công cụ self-hosted, mã nguồn mở. Bạn tự chạy trên server của mình. Chỉ cần tài khoản TikTok Developer (miễn phí) và một server để host. Không có phí đăng ký hay giới hạn sử dụng.",
+    "q2": "Tôi có cần tài khoản TikTok Developer không?",
+    "a2": "Có. Bạn cần đăng ký app developer tại developers.tiktok.com, cấu hình redirect URI và vượt qua app review của TikTok để dùng scope production. Ở trạng thái chưa audit, TikTok sẽ áp dụng các giới hạn đăng tải (ví dụ chế độ riêng tư và hạn mức sử dụng).",
+    "q3": "Tài khoản TikTok của tôi có bị ban không?",
+    "a3": "ClipFlow tích hợp API chính thức của TikTok, nhưng mức độ an toàn của tài khoản vẫn phụ thuộc vào cách bạn sử dụng. Bạn chịu trách nhiệm hoàn toàn với nội dung đăng tải và phải tuân thủ Community Guidelines, chính sách nền tảng, và pháp luật địa phương.",
+    "q4": "Tôi có thể upload lên nhiều tài khoản không?",
+    "a4": "Bạn có thể kết nối nhiều tài khoản TikTok qua OAuth và chọn tài khoản nhận từng lần upload. Số lượng creator/post hoạt động thực tế vẫn phụ thuộc vào trạng thái review, quota và giới hạn chính sách của TikTok.",
+    "q5": "Hỗ trợ những định dạng video nào?",
+    "a5": "ClipFlow xuất video H.264 trong container MP4 với audio AAC — đúng định dạng mà TikTok API yêu cầu. Video đầu vào có thể là bất kỳ định dạng nào FFmpeg hỗ trợ — gần như tất cả mọi thứ."
+  },
+  "cta": {
+    "heading": "Sẵn sàng phát triển trên TikTok?",
+    "sub": "Bắt đầu upload trong vài phút. Tự host, toàn quyền kiểm soát, không mất phí.",
+    "button": "Mở ứng dụng"
+  },
+  "footer": {
+    "tagline": "Công cụ self-hosted để lên lịch và upload video lên TikTok. Được xây dựng bởi creator, dành cho creator.",
+    "productHeading": "Sản phẩm",
+    "legalHeading": "Pháp lý",
+    "techHeading": "Công nghệ",
+    "privacyLink": "Chính sách bảo mật",
+    "termsLink": "Điều khoản dịch vụ",
+    "openApp": "Mở ứng dụng",
+    "copyright": "Kien Dao · ClipFlow. Bảo lưu mọi quyền.",
+    "disclaimer": "Không liên kết với TikTok / ByteDance"
+  }
+}
