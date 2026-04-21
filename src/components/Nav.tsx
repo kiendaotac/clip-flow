@@ -120,7 +120,8 @@ export default function Nav() {
           style={{ height: '64px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}
         >
           {/* Logo */}
-          <Link href={homePath} className="no-underline" style={{ display: 'flex', alignItems: 'center' }}>
+          <Link href={homePath} className="no-underline" style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+            <img src="/icon.svg" width={32} height={32} alt="Clip Flow" style={{ display: 'block', flexShrink: 0 }} />
             <span
               style={{
                 background: 'linear-gradient(135deg, #FE2C55, #25F4EE)',
@@ -132,7 +133,7 @@ export default function Nav() {
                 letterSpacing: '-0.02em',
               }}
             >
-              ClipFlow
+              Clip Flow
             </span>
           </Link>
 

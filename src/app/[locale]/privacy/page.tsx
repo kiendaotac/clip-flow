@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { getLocale } from 'next-intl/server'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy — ClipFlow',
-  description: 'Privacy Policy for ClipFlow: how we collect, use, and protect your data.',
+  title: 'Privacy Policy — Clip Flow',
+  description: 'Privacy Policy for Clip Flow: how we collect, use, and protect your data.',
 }
 
 export default async function PrivacyPage() {
@@ -23,33 +23,33 @@ export default async function PrivacyPage() {
         <h1>{isVI ? 'Chính sách bảo mật' : 'Privacy Policy'}</h1>
         <p className="meta">
           {isVI ? 'Cập nhật lần cuối: 06/04/2026' : 'Last updated: April 6, 2026'}
-          &nbsp;·&nbsp; Kien Dao / ClipFlow
+          &nbsp;·&nbsp; Kien Dao / Clip Flow
         </p>
 
         {isVI ? (
           <>
             <h2>1. Giới thiệu</h2>
             <p>
-              ClipFlow (&ldquo;Dịch vụ&rdquo;, &ldquo;chúng tôi&rdquo;) là ứng dụng web self-hosted cho phép
+              Clip Flow (&ldquo;Dịch vụ&rdquo;, &ldquo;chúng tôi&rdquo;) là ứng dụng web self-hosted cho phép
               content creator upload, lên lịch và quản lý video đăng lên một hoặc nhiều tài khoản TikTok thông qua
               TikTok Content Posting API chính thức. Ứng dụng hỗ trợ xử lý video (cắt, chia segment, chuyển đổi định
               dạng 9:16 dọc), quản lý caption và hashtag, và lên lịch đăng bài đa tài khoản.
             </p>
             <p>
-              Chính sách bảo mật này giải thích thông tin nào được thu thập khi bạn chạy và sử dụng ClipFlow,
+              Chính sách bảo mật này giải thích thông tin nào được thu thập khi bạn chạy và sử dụng Clip Flow,
               cách thông tin đó được sử dụng, thời gian lưu trữ và quyền của bạn đối với thông tin đó. Vì
-              ClipFlow là self-hosted, &ldquo;người vận hành&rdquo; của bất kỳ instance nào là người đã triển
+              Clip Flow là self-hosted, &ldquo;người vận hành&rdquo; của bất kỳ instance nào là người đã triển
               khai nó (thường là bạn hoặc tổ chức của bạn).
             </p>
             <p>
-              Khi kết nối tài khoản TikTok của bạn thông qua luồng OAuth 2.0, bạn đồng ý cho phép ClipFlow
+              Khi kết nối tài khoản TikTok của bạn thông qua luồng OAuth 2.0, bạn đồng ý cho phép Clip Flow
               truy cập và sử dụng dữ liệu tài khoản TikTok của bạn như được mô tả trong chính sách này. Nếu không
               đồng ý, vui lòng ngừng sử dụng Dịch vụ.
             </p>
 
             <h2>2. Dữ liệu chúng tôi thu thập</h2>
             <p>
-              ClipFlow lưu trữ dữ liệu cục bộ trong cơ sở dữ liệu SQLite trên server nơi nó được triển khai.
+              Clip Flow lưu trữ dữ liệu cục bộ trong cơ sở dữ liệu SQLite trên server nơi nó được triển khai.
               Không có dữ liệu nào được gửi đến dịch vụ phân tích hay quảng cáo của bên thứ ba.
             </p>
 
@@ -103,7 +103,7 @@ export default async function PrivacyPage() {
             </table>
 
             <p>
-              ClipFlow <strong>không</strong> thu thập tên hoặc địa chỉ email do người dùng trực tiếp nhập vào,
+              Clip Flow <strong>không</strong> thu thập tên hoặc địa chỉ email do người dùng trực tiếp nhập vào,
               cũng không thu thập mật khẩu, thông tin thanh toán, dấu vân tay thiết bị hay bất kỳ phân tích hành vi
               nào. Tên hiển thị và URL avatar TikTok trong bảng trên có nguồn gốc từ phản hồi OAuth của TikTok và
               chỉ được lưu để xác định tài khoản TikTok nào đang được kết nối.
@@ -121,7 +121,7 @@ export default async function PrivacyPage() {
             <h2>4. Dịch vụ bên thứ ba</h2>
             <h3>TikTok Content Posting API</h3>
             <p>
-              Khi bạn khởi tạo upload hoặc đăng bài, ClipFlow gửi file video và metadata đến máy chủ TikTok thông qua
+              Khi bạn khởi tạo upload hoặc đăng bài, Clip Flow gửi file video và metadata đến máy chủ TikTok thông qua
               các endpoint chính thức của TikTok Content Posting API (bao gồm các luồng upload/inbox hoặc direct post,
               tùy cấu hình app). TikTok sẽ xử lý và lưu trữ video theo{' '}
               <a href="https://www.tiktok.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">
@@ -131,7 +131,7 @@ export default async function PrivacyPage() {
             </p>
 
             <h3>Quyền TikTok API được yêu cầu</h3>
-            <p>ClipFlow chỉ yêu cầu các scope cần thiết cho tính năng bạn bật trong TikTok app:</p>
+            <p>Clip Flow chỉ yêu cầu các scope cần thiết cho tính năng bạn bật trong TikTok app:</p>
             <ul>
               <li><code>user.info.basic</code> — lấy tên hiển thị, avatar và open_id để xác định tài khoản đã kết nối</li>
               <li><code>video.upload</code> — dùng cho luồng upload video chính thức lên TikTok</li>
@@ -141,7 +141,7 @@ export default async function PrivacyPage() {
 
             <h3>Không có dịch vụ bên thứ ba nào khác</h3>
             <p>
-              ClipFlow không sử dụng Google Analytics, Mixpanel, Sentry hay bất kỳ dịch vụ telemetry, theo dõi
+              Clip Flow không sử dụng Google Analytics, Mixpanel, Sentry hay bất kỳ dịch vụ telemetry, theo dõi
               lỗi hay phân tích của bên thứ ba nào. Tất cả dữ liệu ở lại trên server của bạn.
             </p>
 
@@ -149,14 +149,14 @@ export default async function PrivacyPage() {
             <ul>
               <li><strong>Mã hóa AES-256-GCM</strong> — Token OAuth truy cập và làm mới TikTok được mã hóa trước khi ghi vào cơ sở dữ liệu.</li>
               <li><strong>Không log token</strong> — Token văn bản thuần không bao giờ được ghi vào log hay HTTP response.</li>
-              <li><strong>Khuyến nghị HTTPS</strong> — Triển khai ClipFlow đằng sau reverse proxy với chứng chỉ TLS hợp lệ.</li>
+              <li><strong>Khuyến nghị HTTPS</strong> — Triển khai Clip Flow đằng sau reverse proxy với chứng chỉ TLS hợp lệ.</li>
               <li><strong>Bảo vệ CSRF</strong> — Luồng OAuth TikTok sử dụng state token có ký (HMAC-SHA256) để ngăn chặn tấn công CSRF.</li>
             </ul>
 
             <h2>6. Quyền &amp; kiểm soát dữ liệu</h2>
             <h3>Ngắt kết nối tài khoản TikTok</h3>
             <ol>
-              <li>Mở ClipFlow và điều hướng đến <strong>Cài đặt → Tài khoản TikTok</strong>.</li>
+              <li>Mở Clip Flow và điều hướng đến <strong>Cài đặt → Tài khoản TikTok</strong>.</li>
               <li>Nhấp <strong>Ngắt kết nối</strong> bên cạnh tài khoản muốn xóa.</li>
               <li>Thao tác này xóa vĩnh viễn các token OAuth đã mã hóa cho tài khoản đó khỏi cơ sở dữ liệu.</li>
               <li>Để thu hồi quyền của TikTok, truy cập <a href="https://www.tiktok.com/settings/connected-apps" target="_blank" rel="noopener noreferrer">tiktok.com/settings/connected-apps</a>.</li>
@@ -172,13 +172,13 @@ export default async function PrivacyPage() {
 
             <h3>Xóa toàn bộ dữ liệu (quyền truy cập server)</h3>
             <p>
-              Dừng server ClipFlow, sau đó xóa thư mục <code>storage/</code> và file cơ sở dữ liệu SQLite{' '}
+              Dừng server Clip Flow, sau đó xóa thư mục <code>storage/</code> và file cơ sở dữ liệu SQLite{' '}
               (<code>storage/tiktok_uploader.db</code>). Thao tác này xóa vĩnh viễn toàn bộ dữ liệu.
             </p>
 
             <h2>7. Quyền riêng tư của trẻ em</h2>
             <p>
-              ClipFlow không hướng đến hoặc có ý định sử dụng bởi người dưới 18 tuổi. Chúng tôi không cố tình
+              Clip Flow không hướng đến hoặc có ý định sử dụng bởi người dưới 18 tuổi. Chúng tôi không cố tình
               thu thập dữ liệu cá nhân từ trẻ vị thành niên.
             </p>
 
@@ -200,26 +200,26 @@ export default async function PrivacyPage() {
           <>
             <h2>1. Introduction</h2>
             <p>
-              ClipFlow (&ldquo;the Service&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) is a self-hosted web application
+              Clip Flow (&ldquo;the Service&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) is a self-hosted web application
               that allows content creators to upload, schedule, and manage video posts on one or more TikTok accounts
               through the official TikTok Content Posting API. It supports video processing (trimming, splitting into
               segments, portrait conversion), caption and hashtag management, and multi-account scheduling.
             </p>
             <p>
-              This Privacy Policy explains what information is collected when you run and use ClipFlow,
+              This Privacy Policy explains what information is collected when you run and use Clip Flow,
               how that information is used, how long it is retained, and your rights with respect to it.
-              Because ClipFlow is self-hosted, the &ldquo;operator&rdquo; of any given instance is the person
+              Because Clip Flow is self-hosted, the &ldquo;operator&rdquo; of any given instance is the person
               who deployed it (typically yourself or your organisation).
             </p>
             <p>
               By connecting your TikTok account via the OAuth 2.0 authorisation flow, you explicitly grant
-              ClipFlow permission to access and use your TikTok account data as described in this policy.
+              Clip Flow permission to access and use your TikTok account data as described in this policy.
               If you do not agree, please discontinue use of the Service.
             </p>
 
             <h2>2. Data We Collect</h2>
             <p>
-              ClipFlow stores data locally in a SQLite database on the server where it is deployed.
+              Clip Flow stores data locally in a SQLite database on the server where it is deployed.
               No data is sent to third-party analytics or advertising services.
             </p>
 
@@ -273,7 +273,7 @@ export default async function PrivacyPage() {
             </table>
 
             <p>
-              ClipFlow does <strong>not</strong> collect names or email addresses directly entered by users,
+              Clip Flow does <strong>not</strong> collect names or email addresses directly entered by users,
               nor passwords, payment information, device fingerprints, or any behavioural analytics. TikTok
               display names and avatar URLs listed above originate from TikTok&rsquo;s OAuth authorisation
               response and are stored solely to identify which TikTok account is connected.
@@ -291,7 +291,7 @@ export default async function PrivacyPage() {
             <h2>4. Third-Party Services</h2>
             <h3>TikTok Content Posting API</h3>
             <p>
-              When you start an upload or publishing action, ClipFlow sends your video file and metadata to TikTok
+              When you start an upload or publishing action, Clip Flow sends your video file and metadata to TikTok
               through official TikTok Content Posting API endpoints (including upload/inbox and direct-post flows,
               depending on your app configuration). TikTok will process and store the video according to their own{' '}
               <a href="https://www.tiktok.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">
@@ -300,7 +300,7 @@ export default async function PrivacyPage() {
             </p>
 
             <h3>TikTok API Permissions Requested</h3>
-            <p>ClipFlow requests only the scopes required by the features enabled in your TikTok app:</p>
+            <p>Clip Flow requests only the scopes required by the features enabled in your TikTok app:</p>
             <ul>
               <li><code>user.info.basic</code> — to retrieve display name, avatar, and open_id for connected account identification</li>
               <li><code>video.upload</code> — used for the official video upload flow</li>
@@ -310,7 +310,7 @@ export default async function PrivacyPage() {
 
             <h3>No other third-party services</h3>
             <p>
-              ClipFlow does not use Google Analytics, Mixpanel, Sentry, or any other third-party telemetry,
+              Clip Flow does not use Google Analytics, Mixpanel, Sentry, or any other third-party telemetry,
               error tracking, or analytics service. All data stays on your server.
             </p>
 
@@ -318,14 +318,14 @@ export default async function PrivacyPage() {
             <ul>
               <li><strong>AES-256-GCM encryption</strong> — TikTok OAuth access and refresh tokens are encrypted before being written to the database.</li>
               <li><strong>No token logging</strong> — Plaintext tokens are never written to log files or HTTP responses.</li>
-              <li><strong>HTTPS recommended</strong> — Deploy ClipFlow behind a reverse proxy with a valid TLS certificate.</li>
+              <li><strong>HTTPS recommended</strong> — Deploy Clip Flow behind a reverse proxy with a valid TLS certificate.</li>
               <li><strong>CSRF protection</strong> — The TikTok OAuth flow uses a signed state token (HMAC-SHA256) to prevent CSRF attacks.</li>
             </ul>
 
             <h2>6. Your Rights &amp; Data Control</h2>
             <h3>Disconnect a TikTok account</h3>
             <ol>
-              <li>Open ClipFlow and navigate to <strong>Settings → TikTok Accounts</strong>.</li>
+              <li>Open Clip Flow and navigate to <strong>Settings → TikTok Accounts</strong>.</li>
               <li>Click <strong>Disconnect</strong> next to the account you wish to remove.</li>
               <li>This permanently deletes the encrypted OAuth tokens for that account from the database.</li>
               <li>To also revoke TikTok&rsquo;s permission, visit <a href="https://www.tiktok.com/settings/connected-apps" target="_blank" rel="noopener noreferrer">tiktok.com/settings/connected-apps</a>.</li>
@@ -341,13 +341,13 @@ export default async function PrivacyPage() {
 
             <h3>Delete all data (server access)</h3>
             <p>
-              Stop the ClipFlow server, then delete the <code>storage/</code> directory and the SQLite database file
+              Stop the Clip Flow server, then delete the <code>storage/</code> directory and the SQLite database file
               (<code>storage/tiktok_uploader.db</code>). This irreversibly removes all data.
             </p>
 
             <h2>7. Children&rsquo;s Privacy</h2>
             <p>
-              ClipFlow is not directed at or intended for use by individuals under the age of 18. We do not
+              Clip Flow is not directed at or intended for use by individuals under the age of 18. We do not
               knowingly collect personal data from minors.
             </p>
 

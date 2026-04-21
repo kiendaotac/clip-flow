@@ -18,12 +18,15 @@ export default function Footer() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '2rem', marginBottom: '2.5rem' }}>
           {/* Brand */}
           <div>
-            <div style={{
-              background: 'linear-gradient(135deg, #FE2C55, #25F4EE)',
-              WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text', fontWeight: 800, fontSize: '1.3rem', marginBottom: '0.75rem',
-            }}>
-              ClipFlow
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: '0.75rem' }}>
+              <img src="/icon.svg" width={34} height={34} alt="Clip Flow" style={{ display: 'block', flexShrink: 0 }} />
+              <span style={{
+                background: 'linear-gradient(135deg, #FE2C55, #25F4EE)',
+                WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text', fontWeight: 800, fontSize: '1.3rem',
+              }}>
+                Clip Flow
+              </span>
             </div>
             <p style={{ color: '#6b6b71', fontSize: '0.875rem', lineHeight: 1.7, maxWidth: '220px' }}>
               {t('tagline')}

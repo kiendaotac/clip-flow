@@ -31,7 +31,7 @@
     "card1Title": "Xử lý Video",
     "card1Body": "Upload video, cắt chỉnh nhanh, chia đoạn phù hợp TikTok và xuất 9:16 khi cần. Mọi thứ được xử lý tự động trong một luồng đơn giản.",
     "card2Title": "Lên lịch & Tự động hoá",
-    "card2Body": "Đặt thời gian đăng và khoảng cách cho các đoạn đã chuẩn bị. ClipFlow tuân theo quyền TikTok bạn đã cấp và giới hạn đăng tải hiện hành, đồng thời hỗ trợ template caption như 'Phần 1, 2, 3...' và thêm hashtag hàng loạt.",
+    "card2Body": "Đặt thời gian đăng và khoảng cách cho các đoạn đã chuẩn bị. Clip Flow tuân theo quyền TikTok bạn đã cấp và giới hạn đăng tải hiện hành, đồng thời hỗ trợ template caption như 'Phần 1, 2, 3...' và thêm hashtag hàng loạt.",
     "card3Title": "Upload Đa Tài Khoản TikTok",
     "card3Body": "Kết nối nhiều tài khoản TikTok qua OAuth. Upload cùng một đoạn lên nhiều tài khoản cùng lúc. Thêm caption, hashtag riêng cho từng đoạn và lên lịch đăng — tất cả từ một dashboard với trạng thái theo từng tài khoản."
   },
@@ -41,7 +41,7 @@
     "headingBrand": "lên TikTok",
     "step1Num": "01",
     "step1Title": "Upload Video",
-    "step1Body": "Upload file video của bạn lên ClipFlow. File được lưu trữ phía server và đưa vào hàng đợi xử lý — không tốn băng thông client trong quá trình xử lý.",
+    "step1Body": "Upload file video của bạn lên Clip Flow. File được lưu trữ phía server và đưa vào hàng đợi xử lý — không tốn băng thông client trong quá trình xử lý.",
     "step2Num": "02",
     "step2Title": "Chỉnh sửa & Xử lý",
     "step2Body": "Cắt clip, chia thành đoạn. Ghép với video ngang và chuyển sang 9:16 dọc với nền theo ý muốn.",
@@ -74,15 +74,15 @@
     "heading": "Các câu hỏi",
     "headingBrand": "thường gặp",
     "q1": "Công cụ này có miễn phí không?",
-    "a1": "Có — ClipFlow là công cụ self-hosted, mã nguồn mở. Bạn tự chạy trên server của mình. Chỉ cần tài khoản TikTok Developer (miễn phí) và một server để host. Không có phí đăng ký hay giới hạn sử dụng.",
+    "a1": "Có — Clip Flow là công cụ self-hosted, mã nguồn mở. Bạn tự chạy trên server của mình. Chỉ cần tài khoản TikTok Developer (miễn phí) và một server để host. Không có phí đăng ký hay giới hạn sử dụng.",
     "q2": "Tôi có cần tài khoản TikTok Developer không?",
     "a2": "Có. Bạn cần đăng ký app developer tại developers.tiktok.com, cấu hình redirect URI và vượt qua app review của TikTok để dùng scope production. Ở trạng thái chưa audit, TikTok sẽ áp dụng các giới hạn đăng tải (ví dụ chế độ riêng tư và hạn mức sử dụng).",
     "q3": "Tài khoản TikTok của tôi có bị ban không?",
-    "a3": "ClipFlow tích hợp API chính thức của TikTok, nhưng mức độ an toàn của tài khoản vẫn phụ thuộc vào cách bạn sử dụng. Bạn chịu trách nhiệm hoàn toàn với nội dung đăng tải và phải tuân thủ Community Guidelines, chính sách nền tảng, và pháp luật địa phương.",
+    "a3": "Clip Flow tích hợp API chính thức của TikTok, nhưng mức độ an toàn của tài khoản vẫn phụ thuộc vào cách bạn sử dụng. Bạn chịu trách nhiệm hoàn toàn với nội dung đăng tải và phải tuân thủ Community Guidelines, chính sách nền tảng, và pháp luật địa phương.",
     "q4": "Tôi có thể upload lên nhiều tài khoản không?",
     "a4": "Bạn có thể kết nối nhiều tài khoản TikTok qua OAuth và chọn tài khoản nhận từng lần upload. Số lượng creator/post hoạt động thực tế vẫn phụ thuộc vào trạng thái review, quota và giới hạn chính sách của TikTok.",
     "q5": "Hỗ trợ những định dạng video nào?",
-    "a5": "ClipFlow xuất video H.264 trong container MP4 với audio AAC — đúng định dạng mà TikTok API yêu cầu. Video đầu vào có thể là bất kỳ định dạng nào FFmpeg hỗ trợ — gần như tất cả mọi thứ."
+    "a5": "Clip Flow xuất video H.264 trong container MP4 với audio AAC — đúng định dạng mà TikTok API yêu cầu. Video đầu vào có thể là bất kỳ định dạng nào FFmpeg hỗ trợ — gần như tất cả mọi thứ."
   },
   "cta": {
     "heading": "Sẵn sàng phát triển trên TikTok?",
@@ -97,7 +97,7 @@
     "privacyLink": "Chính sách bảo mật",
     "termsLink": "Điều khoản dịch vụ",
     "openApp": "Mở ứng dụng",
-    "copyright": "Kien Dao · ClipFlow. Bảo lưu mọi quyền.",
+    "copyright": "Kien Dao · Clip Flow. Bảo lưu mọi quyền.",
     "disclaimer": "Không liên kết với TikTok / ByteDance"
   }
 }

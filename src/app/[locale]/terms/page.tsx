@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { getLocale } from 'next-intl/server'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service — ClipFlow',
-  description: 'Terms of Service for ClipFlow: conditions of use, acceptable use policy, and limitations of liability.',
+  title: 'Terms of Service — Clip Flow',
+  description: 'Terms of Service for Clip Flow: conditions of use, acceptable use policy, and limitations of liability.',
 }
 
 export default async function TermsPage() {
@@ -23,14 +23,14 @@ export default async function TermsPage() {
         <h1>{isVI ? 'Điều khoản dịch vụ' : 'Terms of Service'}</h1>
         <p className="meta">
           {isVI ? 'Cập nhật lần cuối: 06/04/2026' : 'Last updated: April 6, 2026'}
-          &nbsp;·&nbsp; Kien Dao / ClipFlow
+          &nbsp;·&nbsp; Kien Dao / Clip Flow
         </p>
 
         {isVI ? (
           <>
             <h2>1. Chấp nhận điều khoản</h2>
             <p>
-              Bằng cách cài đặt, cấu hình, truy cập hoặc sử dụng ClipFlow (&ldquo;Dịch vụ&rdquo;), bạn đồng ý
+              Bằng cách cài đặt, cấu hình, truy cập hoặc sử dụng Clip Flow (&ldquo;Dịch vụ&rdquo;), bạn đồng ý
               bị ràng buộc bởi các Điều khoản dịch vụ (&ldquo;Điều khoản&rdquo;) này. Nếu không đồng ý, vui lòng
               không sử dụng Dịch vụ.
             </p>
@@ -44,7 +44,7 @@ export default async function TermsPage() {
             </p>
 
             <h2>2. Mô tả dịch vụ</h2>
-            <p>ClipFlow cung cấp các chức năng sau:</p>
+            <p>Clip Flow cung cấp các chức năng sau:</p>
             <ul>
               <li>Xử lý file video: cắt, chia thành segment, ghép audio với video, chuyển sang định dạng dọc 9:16</li>
               <li>Xác thực với TikTok qua luồng OAuth 2.0 chính thức và lưu trữ access token đã mã hóa</li>
@@ -53,44 +53,44 @@ export default async function TermsPage() {
               <li>Hỗ trợ upload đồng thời lên nhiều tài khoản TikTok được kết nối</li>
             </ul>
             <p>
-              ClipFlow là công cụ self-hosted. Nhà phát triển không vận hành dịch vụ đám mây chia sẻ. Khi bạn
-              tự triển khai instance ClipFlow, bạn là người kiểm soát dữ liệu (&ldquo;data controller&rdquo;)
+              Clip Flow là công cụ self-hosted. Nhà phát triển không vận hành dịch vụ đám mây chia sẻ. Khi bạn
+              tự triển khai instance Clip Flow, bạn là người kiểm soát dữ liệu (&ldquo;data controller&rdquo;)
               đối với toàn bộ dữ liệu lưu trữ trên instance đó. Kien Dao là tác giả của phần mềm và không có
               quyền truy cập vào dữ liệu trên instance của bạn.
             </p>
 
             <h2>3. Tuân thủ TikTok API</h2>
-            <p>Việc sử dụng ClipFlow để upload nội dung lên TikTok phải tuân theo:</p>
+            <p>Việc sử dụng Clip Flow để upload nội dung lên TikTok phải tuân theo:</p>
             <ul>
               <li><a href="https://www.tiktok.com/legal/terms-of-service" target="_blank" rel="noopener noreferrer">Điều khoản dịch vụ TikTok</a></li>
               <li><a href="https://www.tiktok.com/community-guidelines" target="_blank" rel="noopener noreferrer">Hướng dẫn cộng đồng TikTok</a></li>
               <li><a href="https://developers.tiktok.com/doc/overview" target="_blank" rel="noopener noreferrer">Chính sách nền tảng &amp; điều khoản dành cho nhà phát triển TikTok</a></li>
             </ul>
             <p>
-              Bạn hoàn toàn chịu trách nhiệm về toàn bộ nội dung upload qua ClipFlow và không được upload nội
+              Bạn hoàn toàn chịu trách nhiệm về toàn bộ nội dung upload qua Clip Flow và không được upload nội
               dung vi phạm chính sách của TikTok, bao gồm nội dung thù hận, hoạt động nguy hiểm, spam hay nội dung
               xâm phạm quyền sở hữu trí tuệ của bên thứ ba.
             </p>
             <p>
               Bạn đồng ý tuân thủ các giới hạn kỹ thuật và vận hành do TikTok áp dụng theo từng trạng thái app review
               (ví dụ giới hạn quyền riêng tư, creator cap, posting cap hoặc các giới hạn khác do TikTok cập nhật).
-              ClipFlow không vượt qua hoặc lách các giới hạn này.
+              Clip Flow không vượt qua hoặc lách các giới hạn này.
             </p>
 
             <h2>4. Chính sách sử dụng chấp nhận được</h2>
-            <p>Bạn đồng ý <strong>không</strong> sử dụng ClipFlow để:</p>
+            <p>Bạn đồng ý <strong>không</strong> sử dụng Clip Flow để:</p>
             <ul>
               <li>Upload spam, nội dung tương tác giả tạo hoặc hành vi vô thực phối hợp lên TikTok</li>
-              <li>Bán lại quyền truy cập Dịch vụ hoặc bán lại quota TikTok API thu được qua ClipFlow</li>
+              <li>Bán lại quyền truy cập Dịch vụ hoặc bán lại quota TikTok API thu được qua Clip Flow</li>
               <li>Thực hiện lạm dụng tự động, tấn công từ chối dịch vụ hoặc khai thác lỗ hổng bảo mật trong hạ tầng của TikTok</li>
               <li>Upload nội dung mô tả hoạt động bất hợp pháp, hình ảnh thân mật không đồng thuận hoặc nội dung khai thác trẻ em</li>
             </ul>
 
             <h2>5. Tài khoản &amp; Token OAuth</h2>
             <p>
-              ClipFlow lưu trữ access token và refresh token OAuth TikTok của bạn ở dạng mã hóa. Bạn có trách
+              Clip Flow lưu trữ access token và refresh token OAuth TikTok của bạn ở dạng mã hóa. Bạn có trách
               nhiệm bảo mật server và biến môi trường <code>ENCRYPTION_KEY</code>. Bạn có thể ngắt kết nối bất kỳ
-              tài khoản TikTok nào khỏi ClipFlow bất cứ lúc nào từ trang Cài đặt.
+              tài khoản TikTok nào khỏi Clip Flow bất cứ lúc nào từ trang Cài đặt.
             </p>
 
             <h2>6. Dữ liệu &amp; Quyền riêng tư</h2>
@@ -108,7 +108,7 @@ export default async function TermsPage() {
             </p>
             <p>
               Các dịch vụ bên thứ ba (TikTok API) có thể thay đổi, hạn chế hoặc ngừng cung cấp API của họ bất cứ
-              lúc nào mà không cần thông báo. Những thay đổi đó có thể làm một số tính năng của ClipFlow không
+              lúc nào mà không cần thông báo. Những thay đổi đó có thể làm một số tính năng của Clip Flow không
               hoạt động mà không có lỗi của Nhà phát triển.
             </p>
 
@@ -149,7 +149,7 @@ export default async function TermsPage() {
           <>
             <h2>1. Acceptance of Terms</h2>
             <p>
-              By installing, configuring, accessing, or using ClipFlow (the &ldquo;Service&rdquo;), you agree
+              By installing, configuring, accessing, or using Clip Flow (the &ldquo;Service&rdquo;), you agree
               to be bound by these Terms of Service (&ldquo;Terms&rdquo;). If you do not agree, do not use the Service.
             </p>
             <p>
@@ -162,7 +162,7 @@ export default async function TermsPage() {
             </p>
 
             <h2>2. Service Description</h2>
-            <p>ClipFlow provides the following functionality:</p>
+            <p>Clip Flow provides the following functionality:</p>
             <ul>
               <li>Process video files: trim, split into segments, merge audio with video, convert to 9:16 portrait format</li>
               <li>Authenticate with TikTok via the official OAuth 2.0 flow and store encrypted access tokens</li>
@@ -171,44 +171,44 @@ export default async function TermsPage() {
               <li>Support simultaneous uploads to multiple connected TikTok accounts</li>
             </ul>
             <p>
-              ClipFlow is a self-hosted tool. The Developer does not operate a shared cloud service.
-              When you deploy your own ClipFlow instance, you act as the data controller for all data
+              Clip Flow is a self-hosted tool. The Developer does not operate a shared cloud service.
+              When you deploy your own Clip Flow instance, you act as the data controller for all data
               stored on that instance. Kien Dao is the author of the software only and does not have access
               to data stored on your instance.
             </p>
 
             <h2>3. TikTok API Compliance</h2>
-            <p>Your use of ClipFlow for uploading content to TikTok is subject to:</p>
+            <p>Your use of Clip Flow for uploading content to TikTok is subject to:</p>
             <ul>
               <li><a href="https://www.tiktok.com/legal/terms-of-service" target="_blank" rel="noopener noreferrer">TikTok Terms of Service</a></li>
               <li><a href="https://www.tiktok.com/community-guidelines" target="_blank" rel="noopener noreferrer">TikTok Community Guidelines</a></li>
               <li><a href="https://developers.tiktok.com/doc/overview" target="_blank" rel="noopener noreferrer">TikTok Platform Terms &amp; Developer Policies</a></li>
             </ul>
             <p>
-              You are solely responsible for all content you upload through ClipFlow and must not upload content
+              You are solely responsible for all content you upload through Clip Flow and must not upload content
               that violates TikTok&rsquo;s policies, including hateful content, dangerous activities, spam, or content
               that infringes third-party intellectual property rights.
             </p>
             <p>
               You agree to comply with TikTok technical and operational limits tied to your app review status
               (for example privacy restrictions, creator caps, posting caps, or other limits introduced by TikTok).
-              ClipFlow does not bypass these limits.
+              Clip Flow does not bypass these limits.
             </p>
 
             <h2>4. Acceptable Use Policy</h2>
-            <p>You agree <strong>not</strong> to use ClipFlow to:</p>
+            <p>You agree <strong>not</strong> to use Clip Flow to:</p>
             <ul>
               <li>Upload spam, artificially inflated engagement content, or coordinated inauthentic behaviour to TikTok</li>
-              <li>Re-sell access to the Service or resell TikTok API quota obtained through ClipFlow</li>
+              <li>Re-sell access to the Service or resell TikTok API quota obtained through Clip Flow</li>
               <li>Conduct automated abuse, denial-of-service attacks, or exploit vulnerabilities in TikTok&rsquo;s infrastructure</li>
               <li>Upload content depicting illegal activities, non-consensual intimate imagery, or content that exploits minors</li>
             </ul>
 
             <h2>5. Accounts &amp; OAuth Tokens</h2>
             <p>
-              ClipFlow stores your TikTok OAuth access and refresh tokens in encrypted form. You are responsible for
+              Clip Flow stores your TikTok OAuth access and refresh tokens in encrypted form. You are responsible for
               keeping your server and the <code>ENCRYPTION_KEY</code> environment variable secure. You can disconnect
-              any TikTok account from ClipFlow at any time from the Settings page.
+              any TikTok account from Clip Flow at any time from the Settings page.
             </p>
 
             <h2>6. Data &amp; Privacy</h2>
@@ -226,7 +226,7 @@ export default async function TermsPage() {
             </p>
             <p>
               Third-party services (TikTok API) may change, restrict, or discontinue their APIs at any time
-              without notice. Such changes may render parts of ClipFlow non-functional without fault on the part
+              without notice. Such changes may render parts of Clip Flow non-functional without fault on the part
               of the Developer.
             </p>
 

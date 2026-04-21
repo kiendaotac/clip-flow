@@ -31,7 +31,7 @@
     "card1Title": "Video Processing",
     "card1Body": "Upload your video, make quick trims, split into TikTok-friendly segments, and export 9:16 when needed. The workflow stays simple and automated.",
     "card2Title": "Scheduling & Automation",
-    "card2Body": "Set publish times and intervals for your prepared segments. ClipFlow follows your authorized TikTok permissions and available posting limits while applying caption templates like 'Part 1, 2, 3...' and bulk hashtags.",
+    "card2Body": "Set publish times and intervals for your prepared segments. Clip Flow follows your authorized TikTok permissions and available posting limits while applying caption templates like 'Part 1, 2, 3...' and bulk hashtags.",
     "card3Title": "Multi-Account TikTok Upload",
     "card3Body": "Connect multiple TikTok accounts via OAuth. Upload the same segment to several accounts simultaneously. Add custom captions, hashtags per segment, and schedule for future posting — all from one dashboard with per-account status tracking."
   },
@@ -41,7 +41,7 @@
     "headingBrand": "live on TikTok",
     "step1Num": "01",
     "step1Title": "Upload Your Video",
-    "step1Body": "Upload your video file to ClipFlow. The file is stored server-side and queued for processing — no client bandwidth used during processing.",
+    "step1Body": "Upload your video file to Clip Flow. The file is stored server-side and queued for processing — no client bandwidth used during processing.",
     "step2Num": "02",
     "step2Title": "Edit & Process",
     "step2Body": "Trim your clip. Split into segments. Merge with a landscape video and convert to 9:16 portrait with your preferred background.",
@@ -74,15 +74,15 @@
     "heading": "Frequently asked",
     "headingBrand": "questions",
     "q1": "Is this free to use?",
-    "a1": "Yes — ClipFlow is a self-hosted, open-source tool. You run it on your own server. You only need a TikTok Developer account (free) and a server to host it on. There are no subscription fees or usage limits.",
+    "a1": "Yes — Clip Flow is a self-hosted, open-source tool. You run it on your own server. You only need a TikTok Developer account (free) and a server to host it on. There are no subscription fees or usage limits.",
     "q2": "Do I need a TikTok Developer account?",
     "a2": "Yes. You must register a developer app at developers.tiktok.com, configure redirect URI, and pass TikTok app review for production scopes. In unaudited mode, posting is restricted by TikTok (for example private-view and usage caps).",
     "q3": "Will my TikTok account get banned?",
-    "a3": "ClipFlow integrates with official TikTok APIs, but account safety still depends on how you use it. You are fully responsible for uploaded content and must follow TikTok Community Guidelines, platform policies, and local law.",
+    "a3": "Clip Flow integrates with official TikTok APIs, but account safety still depends on how you use it. You are fully responsible for uploaded content and must follow TikTok Community Guidelines, platform policies, and local law.",
     "q4": "Can I upload to multiple accounts?",
     "a4": "You can connect multiple TikTok accounts via OAuth and choose which connected accounts receive each upload. The effective number of active creators/posts is still subject to TikTok review status, quotas, and policy limits.",
     "q5": "What video formats are supported?",
-    "a5": "ClipFlow outputs H.264 video in MP4 container with AAC audio, which is the format required by the TikTok API. Source videos can be any format that FFmpeg supports — practically everything."
+    "a5": "Clip Flow outputs H.264 video in MP4 container with AAC audio, which is the format required by the TikTok API. Source videos can be any format that FFmpeg supports — practically everything."
   },
   "cta": {
     "heading": "Ready to grow on TikTok?",
@@ -97,7 +97,7 @@
     "privacyLink": "Privacy Policy",
     "termsLink": "Terms of Service",
     "openApp": "Open App",
-    "copyright": "Kien Dao · ClipFlow. All rights reserved.",
+    "copyright": "Kien Dao · Clip Flow. All rights reserved.",
     "disclaimer": "Not affiliated with TikTok / ByteDance"
   }
 }

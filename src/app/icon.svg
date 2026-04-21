@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="cf-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08081A"/>
+      <stop offset="100%" stop-color="#1C0B30"/>
+    </linearGradient>
+    <linearGradient id="cf-flowA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FE2C55"/>
+      <stop offset="100%" stop-color="#B14AE8"/>
+    </linearGradient>
+    <linearGradient id="cf-flowB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B14AE8"/>
+      <stop offset="100%" stop-color="#25F4EE"/>
+    </linearGradient>
+    <radialGradient id="cf-halo" cx="50%" cy="48%" r="58%">
+      <stop offset="0%" stop-color="#B14AE8" stop-opacity="0.45"/>
+      <stop offset="55%" stop-color="#B14AE8" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#B14AE8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="cf-soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" rx="232" fill="url(#cf-bg)"/>
+  <rect width="1024" height="1024" rx="232" fill="url(#cf-halo)"/>
+
+  <path d="M 612 316 L 876 512 L 612 708"
+        fill="none" stroke="#B14AE8" stroke-width="160"
+        stroke-linecap="round" stroke-linejoin="round"
+        opacity="0.28" filter="url(#cf-soft)"/>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 272 372 L 448 512 L 272 652"
+          stroke="url(#cf-flowA)" stroke-width="72" opacity="0.38"/>
+    <path d="M 444 348 L 660 512 L 444 676"
+          stroke="url(#cf-flowA)" stroke-width="96" opacity="0.85"/>
+    <path d="M 612 316 L 876 512 L 612 708"
+          stroke="url(#cf-flowB)" stroke-width="124"/>
+  </g>
+
+  <path d="M 612 316 L 876 512"
+        fill="none" stroke="#ffffff" stroke-width="8"
+        stroke-linecap="round" opacity="0.22"/>
+</svg>
